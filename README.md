@@ -1,6 +1,7 @@
 # Breadth-First Search and Depth-First Search Visualization
 
 This project implements the Breadth-First Search (BFS) and Depth-First Search (DFS) algorithms on a graph. The graph is input by the user in the form of an adjacency list, and the BFS and DFS traversal orders are displayed on the web page.
+
 When a valid input is provided, the program runs both the BFS and DFS algorithms together on the input. Outputs for both are generated together for the user to then examine and compare the differences.
 
 ## Table of Contents
