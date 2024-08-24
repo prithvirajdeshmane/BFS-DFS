@@ -39,7 +39,7 @@ The project consists of the following files:
 
 **Example 1:**
 
-<img src="" width="500px"/>
+<img src="https://github.com/user-attachments/assets/f64e3d86-5614-4b3b-a8a8-9460e159fcf0" width="500px"/>
 
 ```
 3
@@ -58,14 +58,17 @@ This input represents a graph with 3 vertices:
 
 Given the example input above, the traversal starting from vertex 0 would produce the outputs:
 
-`Breadth First Search Output: 
+```
+Breadth First Search Output: 
 0 1 2
+
 Depth  First Search Output: 
-0 1 2`
+0 1 2
+```
 
 **Example 2:**
 
-<img src="" width="500px"/>
+<img src="https://github.com/user-attachments/assets/bc0b3ff8-ba6e-4981-8559-091b711f7247" width="500px"/>
 
 ```
 8
@@ -81,14 +84,17 @@ Depth  First Search Output:
 
 The output here would be:
 
-`Breadth First Search Output: 
+```
+Breadth First Search Output: 
 0 1 5 6 2 3 7 4
+
 Depth  First Search Output: 
-0 1 2 3 4 5 6 7`
+0 1 2 3 4 5 6 7
+```
 
 **Example 3:**
 
-<img src="" width="500px"/>
+<img src="https://github.com/user-attachments/assets/3900b630-81d3-4e5f-96fc-4ee480c50d38" width="500px"/>
 
 ```
 11
@@ -107,10 +113,13 @@ Depth  First Search Output:
 
 The output here would be:
 
-`Breadth First Search Output: 
+```
+Breadth First Search Output: 
 0 1 3 6 8 2 4 5 7 10 9
+
 Depth  First Search Output: 
-0 1 2 4 3 5 6 7 8 10 9`
+0 1 2 4 3 5 6 7 8 10 9
+```
 
 ## Technologies Used
 
