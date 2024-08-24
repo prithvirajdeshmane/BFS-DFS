@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breadth and Depth First Searches</title>
+    <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: lightgrey;
+        color: black;
+        text-align: center;
+      }
+    </style>
+    <script type="module" defer src="App.js"></script>
+  </head>
+  <body>
+    <h1>Breadth First Search (BFS) and Depth First Search (DFS)</h1>
+    <div>
+      <p>If needed, please refer to</p>
+      <ul>
+        <li>
+          Project details:
+          <a
+            href="https://github.com/prithvirajdeshmane/BFS-DFS/blob/main/README.md"
+            >ReadMe</a
+          >
+        </li>
+        <li>
+          Input format:
+          <a
+            href="https://github.com/prithvirajdeshmane/BFS-DFS/blob/main/README.md#input-format"
+            >Examples</a
+          >
+        </li>
+      </ul>
+    </div>
+    <textarea
+      id="inputArea"
+      rows="10"
+      cols="30"
+      placeholder="Enter the graph adjacency list"
+    ></textarea>
+    <br />
+    <button onclick="runBFSDFS()">Run BFS and DFS</button>
+    <h2>Results:</h2>
+    <h3>Breadth First Search Output</h3>
+    <div id="bfs-result"></div>
+    <h3>Depth First Search Output</h3>
+    <div id="dfs-result"></div>
+    <footer class="footer">
+      <p>Author: Prithviraj Deshmane</p>
+      <p><a href="./LICENSE">GNU GPL-3.0</a></p>
+    </footer>
+  </body>
+</html>
